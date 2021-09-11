@@ -1,0 +1,24 @@
+{
+  "name": "heroku_resources",
+  "version": "1.0.0",
+  "description": "Get all heroku dyno resources attached to an app",
+  "main": "index.js",
+  "scripts": {
+    "test": "NODE_ENV=testing mocha",
+    "start-local": "NODE_ENV=development nodemon server.js",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "chai-http": "^4.3.0",
+    "custom-env": "^2.0.1",
+    "mocha": "^9.1.1",
+    "nodemon": "^2.0.12"
+  }
+}
