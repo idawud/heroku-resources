@@ -4,7 +4,7 @@
   "description": "Get all heroku dyno resources attached to an app",
   "main": "index.js",
   "scripts": {
-    "test": "NODE_ENV=testing mocha",
+    "test": "NODE_ENV=testing mocha tests",
     "start-local": "NODE_ENV=development nodemon server.js",
     "start": "node server.js"
   },

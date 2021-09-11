@@ -1,7 +1,6 @@
 const chai = require('chai');
 const chaiHttp = require('chai-http');
 const app = require('../server');
-require('custom-env').env('testing');
 
 // chai configuration
 chai.use(chaiHttp);
